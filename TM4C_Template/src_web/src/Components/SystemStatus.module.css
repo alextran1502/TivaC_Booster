@@ -1,0 +1,12 @@
+.Wrapper {
+    /* background-color: red; */
+    height: inherit;
+    padding: 15px;
+    margin: 10px;
+}
+
+.StatusCardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}

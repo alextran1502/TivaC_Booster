@@ -1,0 +1,17 @@
+
+.App-Wrapper {
+
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+
+}
+.system-status {
+  grid-column: 0 / 1;
+}
+
+.system-config {
+  grid-column: 2 / 3;
+  height: 95vh;
+}

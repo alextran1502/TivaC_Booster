@@ -1,0 +1,13 @@
+# Workspace
+/.metadata/
+/.jxbrowser-data/
+/node_modules/*
+RemoteSystemsTempFiles/
+dvt/
+.vscode/*
+
+
+# Project
+/.launches/
+/.settings/
+io_fsdata.h

@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<!-- Copyright (c) 2013-2017 Texas Instruments Incorporated.  All rights reserved. -->
+<html>
+
+<head>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conductix-Wampfler | Nexus Narrowband</title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="stylesheet" lang="scss" href="styles.css" />
+</head>
+
+<body>
+  <div id="app">
+    <nav-bar class="nav-bar"></nav-bar>
+
+    <!-- Operation Mode Dropdown -->
+    <div>
+      <span>Choose Operation Mode</span>
+      <select v-model="selected">
+        <option disabled value="">Operation Mode</option>
+        <option value="1">1 Master - 1 Slave</option>
+        <option value="2">1 Master - 2 Slave</option>
+        <option value="3">1 Master - 3 Slave</option>
+      </select>
+      <span>Selected: {{ selected }}</span>
+    </div>
+
+    <!-- Operation Mode Dropdown -->
+    <div>
+      <span>Choose Role</span>
+      <select v-model="selected">
+        <option disabled value="">Operation Mode</option>
+        <option value="1">Master</option>
+        <option value="2">Slave A</option>
+        <option value="3">Slave B</option>
+        <option value="4">Slave C</option>
+      </select>
+      <span>Selected: {{ selected }}</span>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Nexus Narrowband</h1>
+        <h2 class="subtitle">
+          {{message}}
+        </h2>
+        <button @click="toggleLed()">Toggle</button>
+        <button @click="test()">Test</button>
+      </div>
+    </section>
+
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="main.js"></script>
+
+</html>

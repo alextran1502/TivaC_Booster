@@ -1,0 +1,46 @@
+.Mybutton {
+  /* color: #303030; */
+  /* text-transform: uppercase; */
+  /* display: flex;
+  widows: 120px;
+  background: #ffffff;
+  padding: 10px;
+  border: 0.5px solid #303030;
+  border-radius: 6px; */
+  /* display: inline-block; */
+  /* transition: all 0.3s ease 0s;
+  margin: 0px 10px;
+  cursor: pointer;
+  box-shadow: 5px 15px 5px 0 rbga(255, 255, 255, 0.50);
+  text-align: center;
+  vertical-align: center;
+  font-size: 11px;
+  font-weight: bold; */
+  position: relative;
+  display: inline-block;
+  padding: 1.2em 2em;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  color: #303030;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+  margin: 0 10px;
+  padding: 10px; 
+  font-size: 12px; 
+  transition: all 0.3s ease 0s;
+  /* border: 1px solid #303030; */
+  border-radius: 5px;
+}
+
+.Mybutton:hover {
+  /* color: #ffffff;
+  background: #303030;
+  border-radius: 10px;
+  border-color: #303030;
+  transition: all 0.3s ease 0s; */
+  transition: all 0.3s ease 0s;
+  background: #303030;
+  color: #ffffff;
+  box-shadow: 1px 3px 10px rgba(8, 8, 8, 0.8);
+}

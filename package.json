@@ -1,0 +1,24 @@
+{
+  "name": "0096-benetton-tm4c",
+  "version": "1.0.0",
+  "description": "Benetton Firmware TivaC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Conductix/0096-Benetton-TM4C.git"
+  },
+  "keywords": [
+    "TM4C",
+    "1294",
+    "Benetton"
+  ],
+  "author": "Alex Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Conductix/0096-Benetton-TM4C/issues"
+  },
+  "homepage": "https://github.com/Conductix/0096-Benetton-TM4C#readme"
+}

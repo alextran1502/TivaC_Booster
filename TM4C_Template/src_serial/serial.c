@@ -4,8 +4,8 @@
  *  Created on: Jan 4, 2019
  *      Author: alex.tran
  */
+#include <main.h>
 #include "serial.h"
-#include <benetton.h>
 #include "serial_hal.h"
 #include "src_mk_led/mk_led_control.h"
 

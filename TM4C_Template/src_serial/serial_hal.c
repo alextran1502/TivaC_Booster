@@ -4,8 +4,8 @@
  *  Created on: Jan 4, 2019
  *      Author: alex.tran
  */
+#include <main.h>
 #include "serial_hal.h"
-#include <benetton.h>
 #include <src_util/uartstdio.h>
 #include "serial.h"
 #include "serial_console.h"

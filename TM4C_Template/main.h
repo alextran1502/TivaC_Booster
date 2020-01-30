@@ -5,8 +5,8 @@
  *      Author: alex.tran
  */
 
-#ifndef BENETTON_H_
-#define BENETTON_H_
+#ifndef MAIN_H_
+#define MAIN_H_
 
 #include <stdint.h>
 #include <stdbool.h>
@@ -43,4 +43,4 @@ uint32_t ui32SysClock;
 void Delay(uint32_t delay_tick);
 void can_irq(void);
 
-#endif /* BENETTON_H_ */
+#endif /* MAIN_H_ */

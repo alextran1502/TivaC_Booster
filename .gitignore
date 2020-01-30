@@ -8,6 +8,6 @@ dvt/
 
 
 # Project
-/.launches/
-/.settings/
+/TM4C_Template/.launches/
+TM4C_Template/.settings/
 io_fsdata.h
